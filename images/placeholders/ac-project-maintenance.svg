@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="100%" height="100%" style="background:#10243A;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+  <defs>
+    <linearGradient id="grad_ac-project-maintenance" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#172330" />
+      <stop offset="60%" stop-color="#10243A" />
+      <stop offset="100%" stop-color="#0c1724" />
+    </linearGradient>
+    <pattern id="grid_ac-project-maintenance" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2585D5" stroke-width="0.5" stroke-opacity="0.18" />
+    </pattern>
+  </defs>
+
+  <rect width="800" height="533" fill="url(#grad_ac-project-maintenance)" />
+  <rect width="800" height="533" fill="url(#grid_ac-project-maintenance)" />
+
+  <!-- Flowing cooling wave lines -->
+  <path d="M -100 399 Q 200 293 400 426 T 900 346" fill="none" stroke="#48C7E8" stroke-width="2.5" stroke-opacity="0.25" />
+  <path d="M -100 437 Q 240 330 480 469 T 900 383" fill="none" stroke="#2585D5" stroke-width="1.8" stroke-opacity="0.3" />
+  <path d="M -100 479 Q 160 373 440 490 T 900 415" fill="none" stroke="#FF9B55" stroke-width="1.2" stroke-opacity="0.25" />
+
+  <!-- Central Badge Container -->
+  <g transform="translate(400, 266)">
+    <rect x="-240" y="-105" width="480" height="210" rx="16" fill="#172330" fill-opacity="0.9" stroke="#2585D5" stroke-width="1.5" stroke-opacity="0.45" />
+    
+    <!-- Abstract snowflake/airflow symbol -->
+    <g transform="translate(0, -55)" stroke="#48C7E8" stroke-width="2.2" fill="none" stroke-linecap="round">
+      <line x1="0" y1="-18" x2="0" y2="18" />
+      <line x1="-18" y1="0" x2="18" y2="0" />
+      <line x1="-13" y1="-13" x2="13" y2="13" />
+      <line x1="-13" y1="13" x2="13" y2="-13" />
+      <circle cx="0" cy="0" r="4.5" fill="#48C7E8" stroke="none" />
+    </g>
+
+    <!-- Badge Label -->
+    <rect x="-105" y="-22" width="210" height="22" rx="11" fill="#2585D5" fill-opacity="0.25" stroke="#48C7E8" stroke-width="1" />
+    <text x="0" y="-7" text-anchor="middle" fill="#48C7E8" font-size="11" font-weight="700" letter-spacing="1.5">IMAGE PLACEHOLDER</text>
+
+    <!-- Title -->
+    <text x="0" y="24" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="600" letter-spacing="0.2">Residential Villa Multi-Split AC Maintenance</text>
+
+    <!-- Target Filename -->
+    <text x="0" y="52" text-anchor="middle" fill="#9bb3cc" font-size="13" font-family="monospace">Intended: ac-project-maintenance.jpg</text>
+    
+    <!-- Specs -->
+    <text x="0" y="78" text-anchor="middle" fill="#6f8ba6" font-size="12">3:2 • 800 × 533 px • Project 2</text>
+  </g>
+
+  <!-- Watermark at corner -->
+  <text x="24" y="509" fill="#48C7E8" fill-opacity="0.5" font-size="11" font-weight="600" letter-spacing="1">AC REPAIR &amp; AIR CONDITIONING SERVICES • TSCG DEMO</text>
+  <text x="776" y="509" text-anchor="end" fill="#6f8ba6" fill-opacity="0.6" font-size="11">Hostinger Static Compatible</text>
+</svg>
